@@ -271,5 +271,11 @@ footer {
   header {
     position: relative; /* disable fixed on mobile */
   }
+  body {
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+}
+
 }
 
