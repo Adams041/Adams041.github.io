@@ -6,7 +6,11 @@ html {
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
-  background-color: #f9f9f9;
+  background-image:
+    linear-gradient(rgba(0, 0, 50, 0.4), rgba(0, 0, 50, 0.4)),
+    url('images/bg-tech.png');
+  background-size: cover;
+  background-position: center;
   color: #333;
 }
 
