@@ -55,6 +55,14 @@ main {
   margin: auto;
 }
 
+.meet {
+  padding: 2rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
 .container {
   text-align: center;
   padding: 2rem;
@@ -123,6 +131,7 @@ h2 {
 
 .project-card {
   background: white;
+  color:black;
   padding: 1rem;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0,0,0,0.1);
