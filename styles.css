@@ -106,7 +106,7 @@ section {
 }
 
 h2 {
-  color: white;
+  color: #ff0000;
   border-bottom: 2px solid #ccc;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
@@ -194,10 +194,15 @@ section#contact p {
 
 footer {
   text-align: center;
-  padding: 1rem;
-  background-color: #222;
-  color: white;
   margin-top: 3rem;
+  background-color: rgba(34, 34, 34, 0.5); /* semi-transparent dark */
+  backdrop-filter: blur(8px);            /* adds blur behind header */
+  -webkit-backdrop-filter: blur(8px);    /* for Safari support */
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  color: white;
+  padding: 0rem 0;
+  font-weight: bold;
 }
 
 #scrollToTop {
@@ -206,7 +211,7 @@ footer {
   right: 24px;
   padding: 1rem 1.25rem;
   font-size: 1.25rem;
-  background-color: #ff5c5c;
+  background-color: #005f99;
   color: white;
   border: none;
   border-radius: 50px;
@@ -217,7 +222,7 @@ footer {
 }
 
 #scrollToTop:hover {
-  background-color: #005f99;
+  background-color: #ff5c5c;
 }
 
 @media (max-width: 600px) {
