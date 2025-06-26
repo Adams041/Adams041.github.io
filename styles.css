@@ -58,7 +58,7 @@ main {
 #contact {
   color:black;
   padding: 2rem;
-  background-color: #d3d3d3;
+  background-color: white;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   margin-bottom: 2rem;
@@ -68,10 +68,14 @@ main {
   text-align: center;
   padding: 2rem;
   background-color: white;
-  border-radius: 12px;
+  border-radius: 9px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   margin-bottom: 2rem;
   color:black;
+}
+#call {
+  color:black;
+  background-color:  #d3d3d3;
 }
 
 .profile-image {
