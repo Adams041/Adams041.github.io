@@ -7,7 +7,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   background-image:
-    linear-gradient(rgba(0, 0, 50, 0.4), rgba(0, 0, 50, 0.4)),
+    linear-gradient(rgba(0, 0, 50, 0.65), rgba(0, 0, 50, 0.65)),
     url('bg-tech.jpg');
   background-size: cover;
   background-position: center;
@@ -15,13 +15,13 @@ body {
 }
 
 header {
-  background-color: rgba(34, 34, 34, 0.7); /* semi-transparent dark */
-  backdrop-filter: blur(10px);            /* adds blur behind header */
-  -webkit-backdrop-filter: blur(10px);    /* for Safari support */
+  background-color: rgba(34, 34, 34, 0.5); /* semi-transparent dark */
+  backdrop-filter: blur(8px);            /* adds blur behind header */
+  -webkit-backdrop-filter: blur(8px);    /* for Safari support */
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
   color: white;
-  padding: 1rem 0;
+  padding: 0rem 0;
   text-align: center;
   position: sticky;
   top: 0;
@@ -62,6 +62,7 @@ main {
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   margin-bottom: 2rem;
+  color:black;
 }
 
 .profile-image {
@@ -92,7 +93,7 @@ section {
 }
 
 h2 {
-  color: #222;
+  color: white;
   border-bottom: 2px solid #ccc;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
@@ -111,6 +112,7 @@ h2 {
   padding: 0.5rem 1rem;
   border-radius: 6px;
   font-weight: 500;
+  color:black;
 }
 
 .projects-grid {
