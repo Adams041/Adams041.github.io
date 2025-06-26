@@ -11,20 +11,23 @@ body {
     url('bg-tech.jpg');
   background-size: cover;
   background-position: center;
-  color: #333;
+  color: white;
 }
 
 header {
-  background-color: #222;
+  background-color: rgba(34, 34, 34, 0.7); /* semi-transparent dark */
+  backdrop-filter: blur(10px);            /* adds blur behind header */
+  -webkit-backdrop-filter: blur(10px);    /* for Safari support */
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
   color: white;
   padding: 1rem 0;
   text-align: center;
   position: sticky;
   top: 0;
   z-index: 10;
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
 }
+
 
 nav ul {
   list-style: none;
