@@ -12,8 +12,6 @@ body {
   background-size: cover;
   background-position: center;
   color: white;
-  line-height: 1.6;
-  padding: 0;
 }
 
 header {
@@ -274,8 +272,39 @@ footer {
     position: relative; /* disable fixed on mobile */
   }
   body {
+    background-image:
+      linear-gradient(rgba(0, 0, 50, 0.65), rgba(0, 0, 50, 0.65)),
+      url('images/bg-tech.jpg');
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+  .profile-image {
+    width: 160px;
+    height: 160px;
+  }
+  .btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+  section {
+    margin-bottom: 2rem;
+  }
+  #scrollToTop {
+    bottom: 16px;
+    right: 16px;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+  }
+  header {
+    position: relative; /* disable fixed on mobile */
+  }
+  body {
   background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
 }
 
-}
 
