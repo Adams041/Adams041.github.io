@@ -241,6 +241,9 @@ footer {
   #welcome {
     font-size: 2rem;
   }
+  header {
+    position: relative; /* disable fixed on tablets */
+  }
 }
 
 @media (max-width: 480px) {
@@ -264,6 +267,9 @@ footer {
     right: 16px;
     padding: 0.8rem 1rem;
     font-size: 1rem;
+  }
+  header {
+    position: relative; /* disable fixed on mobile */
   }
 }
 
