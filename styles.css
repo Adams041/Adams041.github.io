@@ -8,7 +8,7 @@ body {
   margin: 0;
   background-image:
     linear-gradient(rgba(0, 0, 50, 0.4), rgba(0, 0, 50, 0.4)),
-    url('bg-tech.jpeg');
+    url('bg-tech.jpg');
   background-size: cover;
   background-position: center;
   color: #333;
